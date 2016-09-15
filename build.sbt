@@ -11,6 +11,6 @@ libraryDependencies ++= Seq(
   cache,
   ws,
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.1" % Test,
-  "org.jsoup" %  "jsoup" % "1.9.2"
+  "org.jsoup" %  "jsoup" % "1.9.2",
+  "com.typesafe.play.modules" %% "play-modules-redis" % "2.5.0"
 )
-
